@@ -66,7 +66,14 @@ public class Main {
             String cardType = scanner.nextLine().trim();
 
             if (isValidCardType(cardType)) {
-                return cardType;
+                switch (cardType) {
+                    case "p":
+                        return "Pupil";
+                    case "s":
+                        return "Student";
+                    case "r":
+                        return "Regular";
+                }
             } else {
                 System.out.println("Введіть p, s або r. (Pupil (p), Student (s), Regular (r).");
             }

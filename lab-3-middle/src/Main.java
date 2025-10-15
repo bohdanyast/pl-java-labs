@@ -50,9 +50,9 @@ public class Main {
 
         String cardId = getCardId();
 
-        if (cardType.equalsIgnoreCase("r")) {
+        if (cardType.equalsIgnoreCase("Regular")) {
             createRegularCard(cardId);
-        } else if (cardType.equalsIgnoreCase("p") || cardType.equalsIgnoreCase("s")) {
+        } else if (cardType.equalsIgnoreCase("Pupil") || cardType.equalsIgnoreCase("Student")) {
             createTripOrExpireCard(cardId, cardType);
         }
     }
@@ -182,7 +182,7 @@ public class Main {
             System.out.println("Можна вибрати або 5, або 10 поїздок. Введіть число: ");
             int tripsAmount = scanner.nextInt();
 
-            if (tripsAmount < 5 || tripsAmount > 10) {
+            if (tripsAmount != 5 && tripsAmount != 10) {
                 System.out.println("Можна обрати лише 5 або 10");
             } else {
                 return tripsAmount;
@@ -199,7 +199,7 @@ public class Main {
             System.out.println("Можна вибрати або місяць (30), або 10 днів (10): ");
             int daysToAdd = scanner.nextInt();
 
-            if (daysToAdd < 10 || daysToAdd > 30) {
+            if (daysToAdd != 10 && daysToAdd != 30) {
                 System.out.println("Можна вибрати або 30 або 10. ");
             } else {
                 return daysToAdd;

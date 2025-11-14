@@ -38,7 +38,7 @@ public class TagCounter {
         Map<String, Integer> tagFrequencies = new HashMap<>();
 
         while (matcher.find()) {
-            String tagName = matcher.group(1);  // отримуємо назву тега
+            String tagName = matcher.group(1);
             tagFrequencies.put(tagName, tagFrequencies.getOrDefault(tagName, 0) + 1);
         }
 

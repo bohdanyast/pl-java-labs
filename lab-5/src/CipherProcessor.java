@@ -43,7 +43,6 @@ public class CipherProcessor {
 
         @Override
         public void write(int c) throws IOException {
-            // Шифруємо байт (символ)
             super.write(c + keyCode);
         }
     }

@@ -29,8 +29,10 @@ public class StringLengthAnalyzer {
             throw new IllegalArgumentException("items array is empty");
         }
 
-        OptionalDouble avgLength = Arrays.stream(items).mapToInt(String::length).average();
-
-        return avgLength.isPresent() ? avgLength.getAsDouble() : 0;
+        return Arrays
+                .stream(items)
+                .mapToInt(String::length)
+                .average()
+                .orElse(0);
     }
 }

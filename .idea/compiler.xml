@@ -10,5 +10,8 @@
         <module name="lab-4" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lab-6-middle" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

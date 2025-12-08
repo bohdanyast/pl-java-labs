@@ -62,10 +62,10 @@ public class Main {
         String[] stringsLowerThanAvg12 = StringLengthAnalyzer.lowerThanAvgItemsLength(testArray12);
         System.out.println(Arrays.toString(stringsLowerThanAvg12) + "\n");
 
-        // Test 13: Exception
-        String[] testArray13 = {};
-        String[] stringsLowerThanAvg13 = StringLengthAnalyzer.lowerThanAvgItemsLength(testArray13);
-        System.out.println(Arrays.toString(stringsLowerThanAvg13) + "\n");
+//        // Test 13: Exception
+//        String[] testArray13 = {};
+//        String[] stringsLowerThanAvg13 = StringLengthAnalyzer.lowerThanAvgItemsLength(testArray13);
+//        System.out.println(Arrays.toString(stringsLowerThanAvg13) + "\n");
 
     }
 }

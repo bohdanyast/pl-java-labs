@@ -15,7 +15,7 @@ public class Producer implements Runnable {
             for (int i = 0; i < 20; i++) {
                 String message = "Потік № " + id + " згенерував повідомлення " + (i + 1) + "\n";
                 circularBuffer.add(message);
-                Thread.sleep(50);
+                Thread.sleep(100);
             }
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();

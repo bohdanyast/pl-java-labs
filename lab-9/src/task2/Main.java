@@ -16,7 +16,7 @@ public class Main {
             translator.setDaemon(true);
             translator.start();
         }
-        
+
         for (int i = 0; i < 100; i++) {
             String message = buffer2.remove();
             System.out.println(message);

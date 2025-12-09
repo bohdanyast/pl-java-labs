@@ -1,10 +1,10 @@
-груд. 09, 2025 1:49:06 ПП logging_internationalization.Main main
+груд. 09, 2025 1:49:06 ПП logging_internationalization.com.company.Main main
 INFO: Користувач вибрав опцію: 1
-груд. 09, 2025 1:49:15 ПП logging_internationalization.Main getMaxWordsLine
+груд. 09, 2025 1:49:15 ПП logging_internationalization.com.company.Main getMaxWordsLine
 INFO: Дані успішно збережено в файл: дьлваьлав.txt
-груд. 09, 2025 1:49:15 ПП logging_internationalization.Main getMaxWordsLine
+груд. 09, 2025 1:49:15 ПП logging_internationalization.com.company.Main getMaxWordsLine
 INFO: Знайдено рядок з найбільшою кількістю слів: sdmsfd
-груд. 09, 2025 1:49:22 ПП logging_internationalization.Main main
+груд. 09, 2025 1:49:22 ПП logging_internationalization.com.company.Main main
 INFO: Користувач вибрав опцію: 4
-груд. 09, 2025 1:49:22 ПП logging_internationalization.Main main
+груд. 09, 2025 1:49:22 ПП logging_internationalization.com.company.Main main
 INFO: Програма завершила роботу.

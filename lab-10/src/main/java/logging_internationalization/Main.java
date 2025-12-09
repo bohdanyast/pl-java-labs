@@ -33,14 +33,15 @@ public class Main {
 
         // Налаштування логера
         try {
-            logger.setLevel(Level.SEVERE);
+            logger.setLevel(Level.ALL);
+            logger.setUseParentHandlers(false);
 
-            // Обробник для виведення в консоль
+            // Обробник для виведення в консоль (тільки SEVERE)
             ConsoleHandler consoleHandler = new ConsoleHandler();
             consoleHandler.setLevel(Level.SEVERE);
             logger.addHandler(consoleHandler);
 
-            // Обробник для запису в файл
+            // Обробник для запису в файл (всі рівні)
             FileHandler fileHandler = new FileHandler("app.log", true);
             fileHandler.setFormatter(new SimpleFormatter());
             fileHandler.setLevel(Level.ALL);
